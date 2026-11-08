@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rotate and Flip Image Online | PixelTools</title><meta name="description" content="Rotate images by 90 degrees or mirror them horizontally and vertically. Runs in your browser.">
+<link rel="canonical" href="https://pixeltools.example/rotate.html">
+<meta property="og:title" content="Rotate and Flip Image Online | PixelTools"><meta property="og:description" content="Rotate images by 90 degrees or mirror them horizontally and vertically. Runs in your browser."><meta property="og:type" content="website"><meta property="og:url" content="https://pixeltools.example/rotate.html">
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebApplication","name":"Rotate and Flip","url":"https://pixeltools.example/rotate.html","description":"Rotate images by 90 degrees or mirror them horizontally and vertically. Runs in your browser.","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does rotating reduce quality?","acceptedAnswer":{"@type":"Answer","text":"The image is redrawn once. PNG stays lossless; JPG and WebP are re-encoded at high quality."}},{"@type":"Question","name":"Can I mirror an image?","acceptedAnswer":{"@type":"Answer","text":"Yes. Use the flip buttons to mirror it horizontally or vertically."}}]}]</script>
+</head><body data-tool="rotate">
+<header><a class="logo" href="/"><i></i>PixelTools</a><nav aria-label="Tools"><a href="/compress.html">Compress Image</a><a href="/jpg-to-png.html">JPG to PNG</a><a href="/png-to-jpg.html">PNG to JPG</a><a href="/to-webp.html">Convert to WebP</a><a href="/resize.html">Resize Image</a><a href="/rotate.html" aria-current="page">Rotate and Flip</a><a href="/to-base64.html">Image to Base64</a></nav></header>
+<main><h1>Rotate and flip images</h1><p class="lead">Rotate images by 90 degrees or mirror them horizontally and vertically. Runs in your browser.</p>
+<label id="drop" class="drop" for="file"><input id="file" type="file" accept="image/jpeg,image/png,image/webp"><strong>Choose an image</strong><span>or drop it here. JPEG, PNG, WEBP, up to 25 MB.</span></label>
+<p id="msg" role="alert" hidden></p>
+<section id="tool" hidden aria-live="polite">
+<div class="ctl"><button type="button" class="alt" data-rot="-90">Rotate left</button><button type="button" class="alt" data-rot="90">Rotate right</button><button type="button" class="alt" data-flip="h">Flip horizontal</button><button type="button" class="alt" data-flip="v">Flip vertical</button></div>
+<div class="view"><img id="out" alt=""></div>
+<p id="stats"></p>
+
+<a id="dl" class="btn" href="#" download>Download</a>
+</section>
+<article>
+<h2>How to use Rotate and Flip</h2>
+<ol><li>Choose or drop an image.</li><li>Adjust the settings if you need to.</li><li>Check the preview, then download the result.</li></ol>
+<h2>Questions</h2>
+<details><summary>Does rotating reduce quality?</summary><p>The image is redrawn once. PNG stays lossless; JPG and WebP are re-encoded at high quality.</p></details><details><summary>Can I mirror an image?</summary><p>Yes. Use the flip buttons to mirror it horizontally or vertically.</p></details>
+<h2>More tools</h2><ul><li><a href="/compress.html">Compress Image</a></li><li><a href="/jpg-to-png.html">JPG to PNG</a></li><li><a href="/png-to-jpg.html">PNG to JPG</a></li><li><a href="/to-webp.html">Convert to WebP</a></li><li><a href="/resize.html">Resize Image</a></li><li><a href="/to-base64.html">Image to Base64</a></li></ul>
+</article></main>
+<footer>Your images are processed in your browser and never uploaded.</footer>
+<script type="module" src="/src/main.js"></script>
+</body></html>

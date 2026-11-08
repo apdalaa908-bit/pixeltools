@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://pixeltools.example/</loc></url>
+<url><loc>https://pixeltools.example/compress.html</loc></url>
+<url><loc>https://pixeltools.example/jpg-to-png.html</loc></url>
+<url><loc>https://pixeltools.example/png-to-jpg.html</loc></url>
+<url><loc>https://pixeltools.example/to-webp.html</loc></url>
+<url><loc>https://pixeltools.example/resize.html</loc></url>
+<url><loc>https://pixeltools.example/rotate.html</loc></url>
+<url><loc>https://pixeltools.example/to-base64.html</loc></url>
+</urlset>

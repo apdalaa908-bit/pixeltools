@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resize Image Online by Pixels | PixelTools</title><meta name="description" content="Change the width and height of JPG, PNG and WebP images. Keep proportions with one switch.">
+<link rel="canonical" href="https://pixeltools.example/resize.html">
+<meta property="og:title" content="Resize Image Online by Pixels | PixelTools"><meta property="og:description" content="Change the width and height of JPG, PNG and WebP images. Keep proportions with one switch."><meta property="og:type" content="website"><meta property="og:url" content="https://pixeltools.example/resize.html">
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebApplication","name":"Resize Image","url":"https://pixeltools.example/resize.html","description":"Change the width and height of JPG, PNG and WebP images. Keep proportions with one switch.","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I keep the proportions?","acceptedAnswer":{"@type":"Answer","text":"Yes. Leave \"Lock aspect ratio\" on and change width or height; the other follows."}},{"@type":"Question","name":"Does resizing lower quality?","acceptedAnswer":{"@type":"Answer","text":"Making an image smaller keeps it sharp. Enlarging adds pixels but not detail, so it can look soft."}}]}]</script>
+</head><body data-tool="resize">
+<header><a class="logo" href="/"><i></i>PixelTools</a><nav aria-label="Tools"><a href="/compress.html">Compress Image</a><a href="/jpg-to-png.html">JPG to PNG</a><a href="/png-to-jpg.html">PNG to JPG</a><a href="/to-webp.html">Convert to WebP</a><a href="/resize.html" aria-current="page">Resize Image</a><a href="/rotate.html">Rotate and Flip</a><a href="/to-base64.html">Image to Base64</a></nav></header>
+<main><h1>Resize images by pixels</h1><p class="lead">Change the width and height of JPG, PNG and WebP images. Keep proportions with one switch.</p>
+<label id="drop" class="drop" for="file"><input id="file" type="file" accept="image/jpeg,image/png,image/webp"><strong>Choose an image</strong><span>or drop it here. JPEG, PNG, WEBP, up to 25 MB.</span></label>
+<p id="msg" role="alert" hidden></p>
+<section id="tool" hidden aria-live="polite">
+<div class="ctl"><label>Width (px)<input id="w" type="number" min="1" max="8000"></label><label>Height (px)<input id="h" type="number" min="1" max="8000"></label><label><span><input id="lock" type="checkbox" checked> Lock aspect ratio</span></label></div>
+<div class="view"><img id="out" alt=""></div>
+<p id="stats"></p>
+
+<a id="dl" class="btn" href="#" download>Download</a>
+</section>
+<article>
+<h2>How to use Resize Image</h2>
+<ol><li>Choose or drop an image.</li><li>Adjust the settings if you need to.</li><li>Check the preview, then download the result.</li></ol>
+<h2>Questions</h2>
+<details><summary>Can I keep the proportions?</summary><p>Yes. Leave "Lock aspect ratio" on and change width or height; the other follows.</p></details><details><summary>Does resizing lower quality?</summary><p>Making an image smaller keeps it sharp. Enlarging adds pixels but not detail, so it can look soft.</p></details>
+<h2>More tools</h2><ul><li><a href="/compress.html">Compress Image</a></li><li><a href="/jpg-to-png.html">JPG to PNG</a></li><li><a href="/png-to-jpg.html">PNG to JPG</a></li><li><a href="/to-webp.html">Convert to WebP</a></li><li><a href="/rotate.html">Rotate and Flip</a></li><li><a href="/to-base64.html">Image to Base64</a></li></ul>
+</article></main>
+<footer>Your images are processed in your browser and never uploaded.</footer>
+<script type="module" src="/src/main.js"></script>
+</body></html>
